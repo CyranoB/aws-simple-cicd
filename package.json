@@ -9,7 +9,7 @@
     "watch": "tsc -w",
     "cdk": "cdk",
     "deploy": "npm run build && npm run cdk -- deploy",
-    "synth": "npm run build && npm run cdk -- synth AWS-Simple-CICD-TeamOne"
+    "synth": "npm run build && npm run cdk -- synth PetStore-CICD"
   },
   "husky": {
     "hooks": {
