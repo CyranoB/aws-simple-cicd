@@ -73,7 +73,7 @@ export interface ProjectConfig {
     prod: string
   },
   simpleCicd: Array<ProjectRepo>,
-  teamOne:  Array<ProjectRepo>
+  teamPetstore:  Array<ProjectRepo>
 }
 
 const config = <ProjectConfig>configFile
