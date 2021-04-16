@@ -68,7 +68,8 @@ export default class CodeBuildRole extends iam.Role {
           'ecr:CompleteLayerUpload',
           'ecr:BatchCheckLayerAvailability',
           'ssm:GetParameters',
-          'ssm:GetParameter'
+          'ssm:GetParameter',
+          'ssm:PutParameter'
         ],
         resources: ['*']
       })
