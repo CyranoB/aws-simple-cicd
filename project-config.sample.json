@@ -43,5 +43,25 @@
       "owner": "EddieDemoOrg",
       "targets": ["dev", "test"]
     }
+  ],
+  "teamHelloWorld": [
+    {
+      "pipelineName": "helloworld",
+      "repository": "acme-sam-helloworld",
+      "branch": "main",
+      "type": "GitHub",
+      "owner": "CyranoB",
+      "targets": ["dev", "test", "prod"]
+    }
+  ],
+  "teamTerra": [
+    {
+      "pipelineName": "helloterra",
+      "repository": "acme-tf-helloworld",
+      "branch": "main",
+      "type": "GitHub",
+      "owner": "CyranoB",
+      "targets": ["dev", "test", "prod"]
+    }
   ]
 }

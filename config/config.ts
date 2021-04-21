@@ -24,10 +24,6 @@ export enum TriggerType {
   GitHub = "GitHub"
 }
 
-export enum Regions {
-  CanadaCentral="CA-CENTRAL-1"
-}
-
 export enum StageName {
   cicd = 'cicd',
   dev = 'dev',
@@ -73,7 +69,9 @@ export interface ProjectConfig {
     prod: string
   },
   seedPipeline: Array<ProjectRepo>,
-  teamPetstore:  Array<ProjectRepo>
+  teamPetstore: Array<ProjectRepo>,
+  teamHelloWorld: Array<ProjectRepo>,
+  teamTerra:  Array<ProjectRepo>
 }
 
 const config = <ProjectConfig>configFile
