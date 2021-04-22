@@ -7,14 +7,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "cdk": "cdk",
-    "deploy": "npm run build && npm run cdk -- deploy",
-    "synth": "npm run build && npm run cdk -- synth PetStore-CICD"
-  },
-  "husky": {
-    "hooks": {
-      "pre-push": "npm run synth"
-    }
+    "test": "jest",
+    "cdk": "cdk"
   },
   "devDependencies": {
     "@aws-cdk/aws-codebuild": "^1.100.0",
